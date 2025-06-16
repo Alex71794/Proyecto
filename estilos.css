@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #2b609c;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: relative;
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.busqueda input {
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+.carrito {
+  font-size: 50px;
+  margin-left: 15px;
+}
+
+header img {
+  width: 160px;
+  height: 140px;
+}

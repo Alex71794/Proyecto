@@ -47,16 +47,20 @@ nav a:hover {
   height: 40px;
 }
 
-.carrito {
-  font-size: 50px;
-  margin-left: 15px;
+.carrito img {
+  width: 80px;
+  height: 80px;
 }
 
 header img {
-  width: 160px;
-  height: 140px;
+  width: 100px;
+  height: 100px;
 }
-h1 img {
-  width: 900px;
-  height: 500px;
+.git-principal {
+  display: flex;
+}
+
+.productos img {
+  width: 300px;
+  height: 200px;
 }

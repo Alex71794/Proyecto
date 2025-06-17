@@ -20,7 +20,8 @@ header {
 
 nav {
   display: flex;
-  gap: 20px;
+  gap: 80px;
+  font-size: 20px;
 }
 
 nav a {
@@ -31,11 +32,19 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
-
+.barra-superior {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: space-between;
+}
 .busqueda input {
   padding: 10px;
   border-radius: 4px;
   border: none;
+  width: 800px;
+  height: 40px;
 }
 
 .carrito {
@@ -46,4 +55,8 @@ nav a:hover {
 header img {
   width: 160px;
   height: 140px;
+}
+h1 img {
+  width: 900px;
+  height: 500px;
 }

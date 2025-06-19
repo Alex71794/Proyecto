@@ -56,22 +56,27 @@ header img {
   width: 100px;
   height: 100px;
 }
-.git-principal {
+.imagenes > div {
   display: flex;
   justify-content: center;
   padding-top: 50px;
   gap: 100px;
+  text-align: center;
+}
+
+.productos {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
 .productos img {
-  width: 150px;
+  width: 300px;
   height: auto;
 }
 footer {
-  background-color: #1e2a38; /* Color oscuro como el header */
+  background-color: #1e2a38;
   color: white;
   text-align: center;
   padding: 20px 0;
-  margin-top: 50px; /* Espacio entre el contenido y el footer */
+  margin-top: 50px;
   font-size: 14px;
 }

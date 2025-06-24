@@ -71,6 +71,11 @@ header img {
 .productos img {
   width: 300px;
   height: auto;
+  transition: transform 0.3s ease;
+}
+.productos img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 footer {
   background-color: #1e2a38;

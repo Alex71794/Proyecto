@@ -66,16 +66,67 @@ header img {
 
 .productos {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.productos:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .productos img {
   width: 300px;
   height: auto;
-  transition: transform 0.3s ease;
 }
-.productos img:hover {
-  transform: scale(1.1);
-  cursor: pointer;
+.texto-1 {
+  padding-top: 50px;
+  font-size: 20px;
+  color: #1e2a38;
+  text-align: center;
+}
+.cajas {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  gap: 100px;
+  text-align: center;
+}
+.caja {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+.cajas img {
+  height: 150px;
+  width: 180px;
+  display: flex;
+}
+.texto-2 {
+  padding-top: 50px;
+  font-size: 20px;
+  color: #1e2a38;
+  text-align: center;
+}
+.marcas {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  gap: 200px;
+  text-align: center;
+}
+.marca {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+.marca-img {
+  width: 80px;
+  height: 60px;
+  display: flex;
 }
 footer {
   background-color: #1e2a38;

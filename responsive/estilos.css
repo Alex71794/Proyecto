@@ -1,0 +1,49 @@
+header {
+  background-color: #5589dcfa;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  display: flex;
+  height: 130px;
+  align-items: center;
+  justify-content: space-between;
+}
+body {
+  margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+  display: flex;
+  gap: 50px;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 8px;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+nav a:hover {
+  color: black;
+  background-color: rgb(34, 90, 180);
+}
+.busqueda input {
+  border: none;
+  outline: none;
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.barra-superior {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  flex-direction: column;
+}

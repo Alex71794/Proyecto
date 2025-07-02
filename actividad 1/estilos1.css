@@ -25,7 +25,7 @@ nav {
 nav a {
   color: white;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 20px;
   transition: 0.5s;
 }
@@ -35,4 +35,44 @@ nav a:hover {
 nav img {
   width: 30px;
   height: 30px;
+}
+.content {
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(46, 45, 45);
+}
+.contenido {
+  background-color: white;
+  font-weight: 400;
+  font-size: 20px;
+  color: #989494;
+  padding: 30px;
+}
+.imagen {
+  background-image: linear-gradient(
+      rgba(30, 144, 255, 0.5),
+      rgba(30, 144, 255, 0.5)
+    ),
+    url(imagenes/pexels-toulouse-3099051.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 580px;
+}
+.texto-imagen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 1;
+}
+.texto-imagen h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin: 20px;
+}
+.texto-imagen p {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 20px;
 }

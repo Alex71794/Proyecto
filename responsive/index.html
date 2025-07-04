@@ -9,7 +9,7 @@
   <body>
     <header>
       <div>
-        <img src="imagenes/logo.png"logo />
+        <img src="imagenes/logo.png" logo />
       </div>
       <div class="barra-superior">
         <div>
@@ -17,7 +17,8 @@
             <input type="text" placeholder="buscar..." />
           </form>
         </div>
-        <nav>
+        <div class="menu-hamburguesa" id="hamburguesa">☰</div>
+        <nav id="menu">
           <a href="#INICIO">INICIO</a>
           <a href="#SAMSUNG">SAMSUNG</a>
           <a href="#XIAOMI">XIAOMI</a>
@@ -25,9 +26,19 @@
           <a href="#ACCESORIOS">ACCESORIOS</a>
         </nav>
       </div>
-      <div>
+      <div class="carrito-boton">
         <img src="/imagenes/carrito sin fondo.png" alt="carrito" />
+        <span class="contador">0</span>
+        <span class="texto-carrito">Mi cesta</span>
       </div>
     </header>
   </body>
+  <script>
+    const btnHamburguesa = document.getElementById("hamburguesa");
+    const menu = document.getElementById("menu");
+
+    btnHamburguesa.addEventListener("click", () => {
+      menu.classList.toggle("abierto");
+    });
+  </script>
 </html>

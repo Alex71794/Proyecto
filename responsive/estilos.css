@@ -1,5 +1,5 @@
 header {
-  background-color: #5589dcfa;
+  background-color: #acafb5;
   color: white;
   padding: 15px 50px;
   text-align: center;
@@ -17,8 +17,8 @@ nav {
   gap: 50px;
 }
 img {
-  width: 300px;
-  height: 200px;
+  width: 350px;
+  height: 250px;
 }
 nav a {
   color: white;
@@ -32,12 +32,13 @@ nav a {
 
 nav a:hover {
   color: black;
-  background-color: rgb(34, 90, 180);
+  background-color: #7e8289;
 }
+
 .busqueda input {
   border: none;
   outline: none;
-  width: 250px;
+  width: 500px;
   padding: 10px;
   border-radius: 10px;
 }
@@ -46,4 +47,140 @@ nav a:hover {
   justify-content: space-between;
   height: 100px;
   flex-direction: column;
+}
+.carrito-boton {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  background-color: #7e8289;
+  padding: 10px 15px;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.carrito-boton:hover {
+  background-color: #62656a;
+}
+
+.carrito-boton img {
+  width: 32px;
+  height: 32px;
+}
+
+.texto-carrito {
+  font-size: 18px;
+}
+
+.contador {
+  position: absolute;
+  top: -8px;
+  left: 25px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+.menu-hamburguesa {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  user-select: none;
+  padding: 10px;
+  background-color: #7e8289;
+  border-radius: 8px;
+  color: white;
+}
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: stretch;
+    height: auto;
+    padding: 10px;
+  }
+
+  .barra-superior {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .logo img {
+    width: 100px;
+    height: 30px;
+  }
+
+  .busqueda {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .busqueda input {
+    width: 100%;
+    max-width: 200px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .menu-carrito {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .menu-hamburguesa {
+    display: block;
+    font-size: 26px;
+    padding: 8px;
+    background-color: #7e8289;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .carrito-boton {
+    display: flex;
+    align-items: center;
+    background-color: #7e8289;
+    padding: 8px 12px;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+  }
+
+  nav {
+    display: none;
+    flex-direction: column;
+    background-color: #acafb5;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  nav.abierto {
+    display: flex;
+  }
+
+  nav a {
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    background-color: #7e8289;
+    color: black;
+  }
 }

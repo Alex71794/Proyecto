@@ -17,8 +17,8 @@ nav {
   gap: 50px;
 }
 img {
-  width: 350px;
-  height: 250px;
+  width: 200px;
+  height: 100px;
 }
 nav a {
   color: white;
@@ -48,6 +48,7 @@ nav a:hover {
   height: 100px;
   flex-direction: column;
 }
+
 .carrito-boton {
   position: relative;
   display: flex;

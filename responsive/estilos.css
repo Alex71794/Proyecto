@@ -17,7 +17,7 @@ nav {
   gap: 50px;
 }
 img {
-  width: 200px;
+  width: 250px;
   height: 100px;
 }
 nav a {
@@ -96,6 +96,18 @@ nav a:hover {
   background-color: #7e8289;
   border-radius: 8px;
   color: white;
+}
+.imagenes > div {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  gap: 100px;
+  text-align: center;
+  border: #09224d;
+}
+.productos img {
+  width: 300px;
+  height: auto;
 }
 @media (max-width: 768px) {
   header {

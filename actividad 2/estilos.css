@@ -1,62 +1,45 @@
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: white;
-    margin: 0;
-    padding: 0;
+.tarjeta {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
 }
 
-header {
-    background-color: #C0DA74;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    font-size: 30px;
-    font-weight: 600;
-    gap: 20px;
+.nombre {
+  color: black;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    background-color:#C0DA74;
-    margin: 0;
-    font-size: 20px;
-    gap: 80px;
+.nombre .profesion {
+  color: #888;
+  font-style: italic;
+  margin-bottom: 12px;
 }
 
-nav ul li {
-    margin: 0 15px;
-    padding: 10px;
-    
+.descripcion {
+  color: #908886;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+a.boton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
 }
 
-nav ul :hover {
-    background-color: #A8BCA1;
-   
-    border-radius: 10px;
-}
-
-.destino {
-    background-color: white;
-    border: 1px solid #ccc;
-    margin: 30px;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-footer {
-    text-align: center;
-    background-color: #222;
-    color: #fff;
-    padding: 15px;
+.boton:hover {
+  background-color: #005fa3;
+  cursor: pointer;
 }

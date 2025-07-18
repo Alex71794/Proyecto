@@ -14,5 +14,35 @@
       </p>
       <a href="#" class="boton">Conectar</a>
     </div>
+    <h3>Ingresa tus Datos</h3>
+    <div>
+      <form action="/action_page.php">
+        <label for="nombre">Nombre</label>
+        <input
+          type="text"
+          id="nombre"
+          name="nombre"
+          placeholder="tu nombre.."
+        />
+
+        <label for="Apellido">Apellido</label>
+        <input
+          type="text"
+          id="Apellido"
+          name="Apellido"
+          placeholder="tu Apellido.."
+        />
+
+        <label for="pais">Pais</label>
+        <select id="pais" name="pais">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="peru">Peru</option>
+        </select>
+
+        <input type="aplicar" value="aplicar" />
+      </form>
+    </div>
   </body>
 </html>

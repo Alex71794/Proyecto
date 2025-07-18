@@ -14,35 +14,127 @@
       </p>
       <a href="#" class="boton">Conectar</a>
     </div>
-    <h3>Ingresa tus Datos</h3>
-    <div>
-      <form action="/action_page.php">
-        <label for="nombre">Nombre</label>
-        <input
-          type="text"
-          id="nombre"
-          name="nombre"
-          placeholder="tu nombre.."
-        />
+    <h1>Formulario de Registro</h1>
 
-        <label for="Apellido">Apellido</label>
-        <input
-          type="text"
-          id="Apellido"
-          name="Apellido"
-          placeholder="tu Apellido.."
-        />
+    <form action="#" method="post">
+      <div>
+        <span><label for="nombre">Nombre completo:</label></span>
+        <input type="text" id="nombre" name="nombre" />
+      </div>
 
-        <label for="pais">Pais</label>
+      <div>
+        <span><label for="correo">Correo electrónico:</label></span>
+        <input type="email" id="correo" name="correo" />
+      </div>
+
+      <div>
+        <span><label for="contrasena">Contraseña:</label></span>
+        <input type="password" id="contrasena" name="contrasena" />
+      </div>
+
+      <div>
+        <span><label for="fecha">Fecha de nacimiento:</label></span>
+        <input type="date" id="fecha" name="fecha" />
+      </div>
+
+      <div class="texto">
+        <span>Documento:</span><br />
+        <br />
+        <label for="dni"
+          ><input type="radio" id="dni" name="Documento" value="dni" />
+          DNI</label
+        ><br />
+        <label for="femenino"
+          ><input type="radio" id="nie" name="Documento" value="nie" />
+          NIE</label
+        ><br />
+        <label for="otro"
+          ><input type="radio" id="otro" name="Documento" value="otro" />
+          Otro</label
+        >
+      </div>
+
+      <div class="texto">
+        <span>Género:</span><br />
+        <br />
+        <label for="masculino"
+          ><input type="radio" id="masculino" name="genero" value="masculino" />
+          Masculino</label
+        ><br />
+        <label for="femenino"
+          ><input type="radio" id="femenino" name="genero" value="femenino" />
+          Femenino</label
+        ><br />
+        <label for="otro"
+          ><input type="radio" id="otro" name="genero" value="otro" />
+          Otro</label
+        >
+      </div>
+
+      <div class="texto">
+        <span>Aficiones:</span><br /><br />
+        <label for="leer"
+          ><input type="checkbox" id="leer" name="aficiones" value="leer" />
+          Leer</label
+        ><br />
+        <label for="musica"
+          ><input type="checkbox" id="musica" name="aficiones" value="musica" />
+          Música</label
+        ><br />
+        <label for="deporte"
+          ><input
+            type="checkbox"
+            id="deporte"
+            name="aficiones"
+            value="deporte"
+          />
+          Deporte</label
+        >
+      </div>
+
+      <div>
+        <span><label for="direccion">Direccion:</label></span>
+        <input type="text" id="direccion" name="direccion" />
+      </div>
+
+      <div>
+        <span><label for="ciudad">Ciudad:</label></span>
+        <select id="ciudad" name="ciudad">
+          <option value="">Seleccione una ciudad</option>
+          <option value="parla">Parla</option>
+          <option value="madrid">Madrid</option>
+          <option value="barcelona">Barcelona</option>
+          <option value="valencia">Valencia</option>
+          <option value="sevilla">Sevilla</option>
+          <option value="lima">Lima</option>
+        </select>
+      </div>
+
+      <div>
+        <span><label for="pais">Pais:</label></span>
         <select id="pais" name="pais">
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
+          <option value="">Seleccione su Pais</option>
+          <option value="españa">España</option>
+          <option value="francia">Francia</option>
+          <option value="alemania">Alemania</option>
+          <option value="italia">Italia</option>
           <option value="peru">Peru</option>
         </select>
+      </div>
 
-        <input type="aplicar" value="aplicar" />
-      </form>
-    </div>
+      <div>
+        <span><label for="comentarios">Comentarios:</label><br /></span>
+        <textarea
+          id="comentarios"
+          name="comentarios"
+          rows="4"
+          cols="50"
+        ></textarea>
+      </div>
+
+      <div>
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
   </body>
 </html>
